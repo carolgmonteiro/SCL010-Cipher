@@ -1,15 +1,103 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[codexpress]</title>
+
+    <!-- linkar css-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<header class = "header"><h1>[codexpress]</h1></header>
+
+<body>
+<!-- Pantalla principal  -->
+<!-- <header class="header">[codexpress]</header>  -->
+<div id="welcome" class="welcome" style="display: block">
+        
+        
+        <h3>.mensajes cifrados rapido y facil.</h3>
+        <p>Quieres enviar informaciones personales por las redes?</p>
+        <p>Hagalo mas seguro cifrando con nosostros</p> 
+        
+        <div class = "optionLeft">
+            <h2>Cifrador</h2>
+            <p>Tenga la opción de cifrar y decifrar tus informaciones personales</p>
+            <button id= "btStartPage" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"></button></div>
+
+        <div class = "optionRight">
+            <h2>Cifra Cesar</h2>
+            <p>Mire nuestro codigo para cifrar tus mensajes como tu querais</p>
+            <button id= "btInfosCode" class="button"><img src="https://image.flaticon.com/icons/svg/716/716314.svg" height="40px"></button></div>    
+    
+</div>
+
+<!-- Pantalla explicaciones sobre como funciona / seguridad -->
+<div id="infosCeasar" class="infos" style="display: none">
+    <br/>
+    <button id= "btBackWelcome" class="button">.volver</button> <br/> 
+    <span style = "text-align:left" ><h2>Como funcionamos ?</h2>
+        <p>1- Usamos Cifra Cesar</p>
+        <p>2- Elije una clave secreta</p>
+        <p>3- Guardala contigo</p>
+        <p>4- Escribe su mensaje y la codifica</p>
+        <p>5- Copia para las redes</p>
+    </span>
+    <h2>O que es la Cifra Cesar?</h2>
+    <p>Júlio César, emperador romano de 100 a. C. a 44 a. C.,
+        utilizaba un código para proteger los mensajes enviados a sus generales.
+        Así, si el mensaje cae en manos enemigas, la información no podría ser comprendida.
+        Cada letra del alfabeto era sustituida por la letra tres posiciones por delante, es decir,
+        el "A" era sustituido por el "D", el "B" por el "E", el "C" por el "F", y así sucesivamente.
+        Cualquier código que tenga ese patrón se considera una Cifra de César,
+        también conocida como Código de César.</p>
+        <br/>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+   
+<!-- Pantalla cifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, decifrar ) --> 
+<div id="encodePage" class="traducao" style="display: none">
+        
+    <div class="leftBlock">
+        <textarea id="originalMsg" cols="40" rows="15" placeholder = "Escribe tu mensaje acá" class = "textareaEn"></textarea>
+        <textarea id="encondedMsg" cols="40" rows="15" placeholder = "La información será cifrada" class = "textareaEn"></textarea>
+        
+        
+    </div>
+    <div class="rightBlock">
+        <button id= "btCleanMsg" class="buttonClean"> <img src="https://image.flaticon.com/icons/svg/714/714646.svg" height="30px" ></button>
+        <input type="number" id = "offsetSpace" placeholder = "+ 1" class = "inputNumber"> 
+        <button id= "btEncodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"></button>
+        
+        <button id= "btDecodePage" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"></button>
+        <button id= "btCopyMsg" class="buttonCopy"><img src="https://image.flaticon.com/icons/svg/714/714539.svg" height="30px" ></button>
+        <button id= "btShareMsg" class="buttonShare"><img src="https://www.svgrepo.com/show/9152/share.svg" height="30px" ></button>
+    </div>
+   
+</div>
+
+<!-- Pantalla decifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, cifrar ) -->   
+<div id="decodePage" class="traducao" style="display: none">
+    <h1>[codexpress]</h1>
+    <!-- <h3>2. Escribe tu mensaje acá</h3> -->
+        <!-- <input type="text" placeholder="escriba su mensaje aquí" id="encodedMsg1"><br/> -->
+        <textarea id="encodedMsg1" cols="50" rows="15" placeholder="Mensaje cifrada" class = "textareaEn"></textarea>
+    <!-- <h3>3. La información se sustituirá por letras y números</h3> -->
+        <!-- <input type="text" placeholder="mensaje traducida acá" id="decondedMsg"><br/> -->
+        <textarea id="decondedMsg" cols="50" rows="15" placeholder="La información será decifrada" class = "textareaEn"></textarea>
+   <br/>
+        <input type="number" id = "offsetSpace1" placeholder = "+ 1" class = "inputNumber">
+        <button id= "btDecodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"></button>
+        <button id= "btCleanMsg1" class="button">.clean</button>
+        <button id= "btCopyMsg1" class="button">.copy</button>
+        <button id= "btEncodePage1" class="button">.encode</button>
+    
+</div>
+<!-- linkar javascript-->
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+
+</body>
 </html>

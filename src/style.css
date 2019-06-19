@@ -1,1 +1,271 @@
-/* Acá va tu código */
+body {
+    /* background-image: url("https://www.pentasia.com/ugc-1/fullnews/news/9127/1662_original.jpg"); */
+    /* background-image: url(https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/cryptography-a-simple-overview-header@2x.png); */
+    /* background-image: url(https://cdn-images-1.medium.com/max/2600/1*mxwl0_gdFfhnpXeh8RozCA.jpeg); */
+    /* background-image: url(https://sqlundercover.files.wordpress.com/2017/07/zenmate.jpg?w=1024); */
+    /* background-image: url(https://griffin.apache.org/images/slider.jpeg); */
+    background-color: rgb(178, 247, 247);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+    /* display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; */
+    /* background-color:rgb(221, 218, 218); */
+}
+
+.header{
+    height: 60px;
+    color: orangered;
+    font-family: monospace;
+    font-size: 20px;
+    background-color:  gainsboro !important;
+    z-index: 10;
+    position: static !important;
+    text-align: center;
+}
+
+
+#welcome{
+    width: 700px;
+    text-align: center;
+    color: #333333;
+    /* color: azure; */
+    font-family: monospace;
+    font-size: 15px;
+    margin : 50px auto;
+    padding: 20px;
+    align-items: baseline;
+    /* height: 400px;
+    width : 600px; */
+    /* border-radius: 5px; */
+    position: relative;
+    /* background-color: white;
+    background-position: 100% 50%; */
+    /* box-shadow: 0px 5px 15px 0px;
+    opacity: 0.80; */
+}
+.optionRight{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 50px auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: right;
+}
+.optionLeft{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 50px auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: left;
+   
+}
+
+#encodePage {
+    width: 700px;
+    text-align: center;
+    /* color: #333333; */
+    color: azure;
+    font-family: monospace;
+    font-size: 15px;
+    margin : 50px auto;
+    padding: 20px;
+    align-items: baseline;
+    height: 600px;
+    width: 1000px;
+    position: relative;
+    /* background-color: white; */
+    /* background-position: 100% 50%; */
+    /* box-shadow: 0px 5px 15px 0px; */
+    /* justify-content: space-around; */
+    display: flex;
+}
+
+.textareaEn {
+    resize: none;
+    overflow: auto;
+    background-color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+    padding: 30px;
+    border: 2px solid #333333;
+    /* box-shadow: 0px 5px 30px 0px; */
+}
+
+/* .leftBlock { */
+    /* text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 50px auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: left; */
+
+    /* text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: left;
+} */
+
+.buttonClean{
+    font-family: monospace;
+    font-size: 15px;
+    background: transparent;
+    color: #333333;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+    /* display: inline-block; */
+    /* border-radius: 20px;  */
+    /* border: 2px solid #333333;   */
+}
+
+/* .rightBlock { */
+    /* text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 50px auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: right; */
+
+    /* text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin :  auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: left;
+    
+} */
+.buttonCopy{
+    font-family: monospace;
+    font-size: 15px;
+    background: transparent;
+    color: #333333;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none; 
+}
+
+.buttonShare{
+    font-family: monospace;
+    font-size: 15px;
+    background: transparent;
+    color: #333333;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none; 
+}
+
+#bottomBlock {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 50px auto;
+    color: #333333;
+    padding: 20px;
+    height: 200px;
+    width : 300px;
+    position: relative;
+    background-color: white;
+    background-position: 100% 50%;
+    opacity: 0.80;
+    float: unset;
+
+}
+
+.inputNumber {
+    resize: none;
+    overflow: auto;
+    background-color: white;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    font-family: monospace;
+    padding: 5px;
+    width: 50px;
+    border: 2px solid #333333;
+}
+.button{
+    font-family: monospace;
+    font-size: 15px;
+    background: transparent;
+    color: #333333;
+    border: 2px solid #333333;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-radius: 20px;  
+}
+.button:hover{
+    background-color: orange;
+    color: #333333;
+}
+
+.infos {
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin : 100px auto;
+    padding: 20px;
+    height: 600px;
+    width : 600px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    /* background-position: 100% 50%;
+    box-shadow: 0px 5px 15px 0px; */
+    opacity: 0.80;
+}
+
