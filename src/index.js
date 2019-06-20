@@ -28,9 +28,13 @@ document.getElementById("btCodePage1").addEventListener("click", function(){
 
 // cambio de pagina encode para welcome
 document.getElementById("btEncoWelcome").addEventListener("click", function(){
+  document.getElementById("encodedMsg1").value = "";
+  document.getElementById("decodedMsg").value = "";
+  document.getElementById("offsetSpace1").value = "";
   document.getElementById("originalMsg").value = "";
   document.getElementById("encondedMsg").value = "";
   document.getElementById("offsetSpace").value = "";
+  
   document.getElementById("encodePage").style.display = "none";
   document.getElementById("welcome").style.display = "block";
   
@@ -47,6 +51,10 @@ document.getElementById("btDecoWelcome").addEventListener("click", function(){
   document.getElementById("encodedMsg1").value = "";
   document.getElementById("decodedMsg").value = "";
   document.getElementById("offsetSpace1").value = "";
+  document.getElementById("originalMsg").value = "";
+  document.getElementById("encondedMsg").value = "";
+  document.getElementById("offsetSpace").value = "";
+
   document.getElementById("decodePage").style.display = "none";
   document.getElementById("welcome").style.display = "block";
   
@@ -58,16 +66,21 @@ document.getElementById("btDecoWelcome").addEventListener("click", function(){
     let enOffset = parseInt(document.getElementById("offsetSpace").value);
     let TxtToEncode = document.getElementById("originalMsg").value;
    
-      //Mostrar nuevo texto en Index.html 
-      document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
-      // document.getElementById("btnEncoded").style.display = "none";
-      // document.getElementById("btnDecodePage2").style.display = "block";
+
+            //Mostrar nuevo texto en Index.html 
+            // document.getElementById("encondedMsg").value = cipher.encode;
+            document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
       });
 
   //De la pantalla codificar para la pantalla decodificar (eventListener)
 document.getElementById("btDecodePage1").addEventListener("click", function(){
+  let enOffset = parseInt(document.getElementById("offsetSpace").value);
+  let TxtToEncode = document.getElementById("originalMsg").value;
+
   document.getElementById("encodePage").style.display = "none";
-  document.getElementById("decodePage").style.display = "block"
+  document.getElementById("decodePage").style.display = "block";
+  document.getElementById("encodedMsg1").value = window.cipher.encode(enOffset, TxtToEncode);
+  document.getElementById("offsetSpace1").value = parseInt(document.getElementById("offsetSpace").value);
 });
 
 //COPIAR TEXTO CODIFICADO PARA CLIPBOARD
@@ -91,8 +104,10 @@ btnClean.addEventListener("click", () => {
   document.getElementById("originalMsg").value = "";
   document.getElementById("encondedMsg").value = "";
   document.getElementById("offsetSpace").value = "";
+  
 });
 
+   
 //DECODIFICAR (click para decodificar el mensaje)
 btnDecode.addEventListener("click", () => {
     //guardar valores del usuario  
@@ -105,9 +120,14 @@ btnDecode.addEventListener("click", () => {
 });
 
   //De la pantalla decodificar para la pantalla codificar (eventListener)
-  document.getElementById("btEncodeMsg1").addEventListener("click", function(){
+  document.getElementById("btEncodePage1").addEventListener("click", function(){
+    let decoOffset = parseInt(document.getElementById("offsetSpace1").value);
+    let TxtToDecode = document.getElementById("encodedMsg1").value;
+
+    //Mostrar en Index.html
     document.getElementById("decodePage").style.display = "none";
-    document.getElementById("encodePage").style.display = "block"
+    document.getElementById("encodePage").style.display = "block";
+    document.getElementById("decodedMsg").value = window.cipher.decode(decoOffset, TxtToDecode);
   });
   
 
