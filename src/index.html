@@ -11,7 +11,7 @@
 
 </head>
 
-<header id = "header"><h1 style="position: center , fixed">c0dexpress</h1><p>.cifra rapido y facil.</p></header>
+<header id = "header"><h1 style="position: center">c0dexpress</h1><p>.cifra rapido y facil.</p></header>
 
 <body>
 <!-- Pantalla principal  -->
@@ -30,7 +30,6 @@
 
 <!-- Pantalla explicaciones sobre como funciona / seguridad -->
 <div id="infosCeasar" class="infos" style="display: none">
-    <br/>
     <button id= "btBackWelcome" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" style="float: right "></button>
     <h2>Cifra Cesar: Cómo funciona?</h2>
     <p> Cada letra del alfabeto era sustituida por la letra tres posiciones por delante, es decir,
@@ -59,13 +58,12 @@
     </div>
    
 <!-- Pantalla cifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, decifrar ) --> 
-<div id="encodePage" style="display: none">
+<div id="encodePage" style="display: none" class = "cipher">
         
         <input type="number" id = "offsetSpace" placeholder = "clave" class = "inputNumber">
         <button id= "btEncodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"><p>Cifrar</p></button>
         <button id= "btDecodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"><p>Decifrar</p></button>
        
-    
         <div class="upperBlock">
         <textarea id="originalMsg" cols="40" rows="15" placeholder = "Escribe tu mensaje acá" class = "textareaEn"></textarea>
         <textarea id="encondedMsg" cols="40" rows="15"  class = "textareaDec"></textarea>
@@ -76,11 +74,9 @@
             <button id= "btEncoWelcome" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" ></button>
             
         </div>
-   
 </div>
-<div>}</div>
 <!-- Pantalla decifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, cifrar ) -->   
-<div id="decodePage" style="display: none">
+<div id="decodePage" style="display: none" class = "cipher">
         <input type="number" id = "offsetSpace1" placeholder = "clave" class = "inputNumber">
         <button id= "btDecodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"><p>Decifrar</p></button>
         <button id= "btEncodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"><p>Cifrar</p></button>

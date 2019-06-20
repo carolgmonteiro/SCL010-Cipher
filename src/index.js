@@ -127,7 +127,8 @@ btnDecode.addEventListener("click", () => {
     //Mostrar en Index.html
     document.getElementById("decodePage").style.display = "none";
     document.getElementById("encodePage").style.display = "block";
-    document.getElementById("decodedMsg").value = window.cipher.decode(decoOffset, TxtToDecode);
+    document.getElementById("originalMsg").value = window.cipher.decode(decoOffset, TxtToDecode);
+    document.getElementById("offsetSpace").value = parseInt(document.getElementById("offsetSpace1").value);
   });
   
 

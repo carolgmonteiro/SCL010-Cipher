@@ -67,7 +67,7 @@ body {
     opacity: 0.80;
 }
 
-#encodePage {
+.cipher {
     width: 600px;
     text-align: center;
     font-family: monospace;
@@ -91,20 +91,6 @@ body {
     font-family: monospace;
     padding: 30px;
     border: 2px solid #333333;
-}
-
-#decodePage {
-    width: 600px;
-    text-align: center;
-    font-family: monospace;
-    color: #333333;
-    font-size: 18px;
-    margin : 150px auto;
-    padding: 20px;
-    align-items: baseline;
-    width: 1000px;
-    position: relative;
-    display: flex;
 }
 
 .textareaDec {
