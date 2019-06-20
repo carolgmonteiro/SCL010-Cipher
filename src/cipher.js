@@ -24,16 +24,16 @@ let encodedTxt = "";
          encodedTxt += String.fromCharCode((asciiNumber - 48 + enOffset) % 10 + 48);
         //caracteres especiales grupo 01
        } else if(asciiNumber >= 32 && asciiNumber <= 47) {
-         encodedTxt += String.fromCharCode((asciiNumber - 32 + enOffset) % 15 + 32);
+         encodedTxt += String.fromCharCode((asciiNumber - 32 + enOffset) % 16 + 32);
          //caracteres especiales grupo 02
        } else if(asciiNumber >= 58 && asciiNumber <= 64) {
-        encodedTxt += String.fromCharCode((asciiNumber - 58 + enOffset) % 6 + 58);
+        encodedTxt += String.fromCharCode((asciiNumber - 58 + enOffset) % 7 + 58);
         //caracteres especiales grupo 03
        } else if(asciiNumber >= 91 && asciiNumber <= 96) {
-        encodedTxt += String.fromCharCode((asciiNumber - 91 + enOffset) % 5 + 91);
+        encodedTxt += String.fromCharCode((asciiNumber - 91 + enOffset) % 6 + 91);
         //caracteres especiales grupo 04
        } else if(asciiNumber >= 123 && asciiNumber <= 126) {
-        encodedTxt += String.fromCharCode((asciiNumber - 123 + enOffset) % 3 + 123);
+        encodedTxt += String.fromCharCode((asciiNumber - 123 + enOffset) % 4 + 123);
         //con numeros negativos
         //letras mayusculas del alphabeto
       // } else if(asciiNumber >= 65 && asciiNumber <= 90) {
@@ -67,20 +67,20 @@ let encodedTxt = "";
        } else if(asciiNumberDeco >= 97 && asciiNumberDeco <=  122) {
          decodedTxt += String.fromCharCode((asciiNumberDeco - 122 - decoOffset) % 26 + 122);
          //numeros de 0 a 9
-       } else if(asciiNumberDeco >= 48 && asciiNumberDeco <=  57) {
+       } else if(asciiNumberDeco >= 48 && asciiNumberDeco <=  58) {
          decodedTxt += String.fromCharCode((asciiNumberDeco - 57 - decoOffset) % 10 + 57);
          //caracteres especiales grupo 01
        } else if(asciiNumberDeco >= 32 && asciiNumberDeco <= 47) {
-        decodedTxt += String.fromCharCode((asciiNumberDeco - 47 - decoOffset) % 15 + 47);
+        decodedTxt += String.fromCharCode((asciiNumberDeco - 47 - decoOffset) % 16 + 47);
         //caracteres especiales grupo 02
       } else if(asciiNumberDeco >= 58 && asciiNumberDeco <= 64) {
-       decodedTxt += String.fromCharCode((asciiNumberDeco - 64 - decoOffset) % 6 + 64);
+       decodedTxt += String.fromCharCode((asciiNumberDeco - 64 - decoOffset) % 7 + 64);
        //caracteres especiales grupo 03
       } else if(asciiNumberDeco >= 91 && asciiNumberDeco <= 96) {
-       decodedTxt += String.fromCharCode((asciiNumberDeco- 96 - decoOffset) % 5 + 96);
+       decodedTxt += String.fromCharCode((asciiNumberDeco- 96 - decoOffset) % 6 + 96);
        //caracteres especiales grupo 04
       } else if(asciiNumberDeco >= 123 && asciiNumberDeco <= 126) {
-       decodedTxt += String.fromCharCode((asciiNumberDeco - 126 - decoOffset) % 3 + 126);   
+       decodedTxt += String.fromCharCode((asciiNumberDeco - 126 - decoOffset) % 4 + 126);   
         } else {
          decodedTxt += TxtToDecode[i];
        }
