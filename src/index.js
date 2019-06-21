@@ -2,7 +2,6 @@
 const btnEncode = document.getElementById("btEncodeMsg");
 const btnCopy = document.getElementById("btCopyMsg");
 const btnClean = document.getElementById("btCleanMsg");
-// const btnShare = document.getElementById("btShareMsg");
 //Declarar las variables - pantalla decode
 const btnDecode = document.getElementById("btDecodeMsg");
 const btnCopyDeco = document.getElementById("btCopyMsg1");
@@ -67,11 +66,8 @@ document.getElementById("btDecoWelcome").addEventListener("click", function(){
     //guardar infos del usuario  
     let enOffset = parseInt(document.getElementById("offsetSpace").value);
     let TxtToEncode = document.getElementById("originalMsg").value;
-   
-
-            //Mostrar nuevo texto en Index.html 
-            // document.getElementById("encondedMsg").value = cipher.encode;
-            document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
+    //Mostrar nuevo texto en Index.html 
+    document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
       });
 
   //De la pantalla codificar para la pantalla decodificar (eventListener)
@@ -85,10 +81,11 @@ document.getElementById("btDecodePage1").addEventListener("click", function(){
   document.getElementById("offsetSpace1").value = parseInt(document.getElementById("offsetSpace").value);
 });
 
+let TxtEncCopied = " ";
 //COPIAR TEXTO CODIFICADO PARA CLIPBOARD
 btnCopy.addEventListener("click", () => {
   document.getElementById('encondedMsg').select();
-  let TxtEncCopied = " ";
+  
   try
   {
       //Copia el texto
@@ -108,7 +105,6 @@ btnClean.addEventListener("click", () => {
   document.getElementById("offsetSpace").value = "";
   
 });
-
    
 //DECODIFICAR (click para decodificar el mensaje)
 btnDecode.addEventListener("click", () => {
