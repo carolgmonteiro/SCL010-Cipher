@@ -61,36 +61,39 @@
 <div id="encodePage" style="display: none" class = "cipher">
         
         <input type="number" id = "offsetSpace" placeholder = "clave" class = "inputNumber">
-        <button id= "btEncodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"><p>Cifrar</p></button>
-        <button id= "btDecodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"><p>Decifrar</p></button>
+        <button id= "btEncodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="60px"><p>Cifrar</p></button>
+        
        
         <div class="upperBlock">
-        <textarea id="originalMsg" cols="40" rows="15" placeholder = "Escribe tu mensaje acá" class = "textareaEn"></textarea>
-        <textarea id="encondedMsg" cols="40" rows="15"  class = "textareaDec"></textarea>
+        <textarea id="originalMsg" cols="40" rows="4" placeholder = "Escribe tu mensaje acá" class = "textareaEn"></textarea>
+        <textarea id="encondedMsg" cols="40" rows="4"  class = "textareaDec"></textarea>
     </div>
+    <br>
     <div class="bottomRightBlock">
-            <button id= "btCopyMsg" class="buttonCopy"><img src="https://image.flaticon.com/icons/svg/714/714539.svg" height="20px" ></button>
-            <button id= "btCleanMsg" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/714/714646.svg" height="20px" ></button>
-            <button id= "btEncoWelcome" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" ></button>
+            <button id= "btCopyMsg" class="button"><img src="https://image.flaticon.com/icons/svg/714/714539.svg" height="40px" ></button>
+            <button id= "btCleanMsg" class="button"><img src="https://image.flaticon.com/icons/svg/714/714646.svg" height="40px" ></button>
+            <button id= "btEncoWelcome" class="button"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="40px" ></button>
+            <button id= "btDecodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="50px"></button>
             
         </div>
 </div>
 <!-- Pantalla decifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, cifrar ) -->   
 <div id="decodePage" style="display: none" class = "cipher">
         <input type="number" id = "offsetSpace1" placeholder = "clave" class = "inputNumber">
-        <button id= "btDecodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="40px"><p>Decifrar</p></button>
-        <button id= "btEncodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="40px"><p>Cifrar</p></button>
+        <button id= "btDecodeMsg" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="60px"><p>Decifrar</p></button>
+        
 
         <div class="upperBlock">
-            <textarea id="encodedMsg1" cols="40" rows="15"  class = "textareaDec" placeholder = "Mensaje cifrada aquí"></textarea>
-            <textarea id="decodedMsg" cols="40" rows="15"  class = "textareaEn"></textarea>
+            <textarea id="encodedMsg1" cols="40" rows="4"  class = "textareaDec" placeholder = "Mensaje cifrada aquí"></textarea>
+            <textarea id="decodedMsg" cols="40" rows="4"  class = "textareaEn"></textarea>
             
         </div>
-        
+        <br>
         <div class="bottomRightBlock">
-            <button id= "btCopyMsg1" class="buttonCopy"><img src="https://image.flaticon.com/icons/svg/714/714539.svg" height="20px" ></button>
-            <button id= "btCleanMsg1" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/714/714646.svg" height="20px" ></button>
-            <button id= "btDecoWelcome" class="buttonClean"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="30px" ></button>
+            <button id= "btCopyMsg1" class="button"><img src="https://image.flaticon.com/icons/svg/714/714539.svg" height="40px" ></button>
+            <button id= "btCleanMsg1" class="button"><img src="https://image.flaticon.com/icons/svg/714/714646.svg" height="40px" ></button>
+            <button id= "btDecoWelcome" class="button"><img src="https://image.flaticon.com/icons/svg/263/263085.svg" height="40px" ></button>
+            <button id= "btEncodePage1" class="button"><img src="https://image.flaticon.com/icons/svg/1792/1792163.svg" height="50px"></button>
         </div>
        
     </div>

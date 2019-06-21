@@ -18,12 +18,14 @@ document.getElementById("btInfosCode").addEventListener("click", function(){
 document.getElementById("btBackWelcome").addEventListener("click", function(){
   document.getElementById("infosCeasar").style.display = "none";
   document.getElementById("welcome").style.display = "block";
+  
 });
 
 // cambio de pagina welcome para encode
 document.getElementById("btCodePage1").addEventListener("click", function(){
   document.getElementById("welcome").style.display = "none";
   document.getElementById("encodePage").style.display = "block";
+  
 });
 
 // cambio de pagina encode para welcome

@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 140px;
     text-align: center; 
+   
 }
 
 
@@ -27,7 +28,7 @@ body {
     color: #333333;
     font-family: monospace;
     font-size: 15px;
-    margin : 250px auto;
+    margin : 230px auto;
     align-items: baseline;
     opacity: 0.80;
     justify-content: center ;
@@ -41,7 +42,7 @@ body {
     font-size: 15px;
     color: #333333;
     border: 2px solid #333333;
-    width: 200px;
+    width: 220px;
     padding: 10px;
     cursor: pointer;
     background-color: white;
@@ -50,7 +51,7 @@ body {
     outline: none;  
 }
 .buttonStart:hover{
-    background-color: orange;
+    background-color: #F19E81;
     color: #333333;
 }
 
@@ -72,7 +73,7 @@ body {
     text-align: center;
     font-family: monospace;
     color: #333333;
-    font-size: 18px;
+    font-size: 15px;
     margin : 150px auto;
     padding: 20px;
     align-items: baseline;
@@ -91,6 +92,7 @@ body {
     font-family: monospace;
     padding: 30px;
     border: 2px solid #333333;
+    font-size: 20px;
 }
 
 .textareaDec {
@@ -103,6 +105,7 @@ body {
     font-family: monospace;
     padding: 30px;
     border: 2px solid #333333;
+    font-size: 20px;
     
 }
 
@@ -110,69 +113,39 @@ body {
     text-align: center;
     background-color: white;
     outline: none;
-    border-radius: 20px;
+    border-radius: 5px;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
     font-style: initial;
-    height: 40px;
-    width: 80px;
+    height: 90px;
+    width: 150px;
     border: 2px solid #333333;
     float: inline-start;
 }
 
-.buttonClean{
-    font-family: monospace;
-    font-size: 15px;
-    background: transparent;
-    color: #333333;
-    width: 50px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-}
-
-.buttonCopy{
-    font-family: monospace;
-    font-size: 15px;
-    background: transparent;
-    color: #333333;
-    width: 50px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border: none; 
-    outline: none;
-}
-
-.buttonShare{
-    font-family: monospace;
-    font-size: 15px;
-    background: transparent;
-    color: #333333;
-    width: 50px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border: none; 
-    outline: none;
-}
 
 .button{
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
     background: transparent;
     color: #333333;
     cursor: pointer;
     border-radius: 10px;  
     border: none;
     outline: none;
+    width: 120px;
+
+
 }
 
 .button:hover{
-    background-color: rgb(138, 240, 240);
     color: #333333;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
-
+/* .button:hover{
+    background-color: rgb(138, 240, 240);
+    color: #333333;
+} */
