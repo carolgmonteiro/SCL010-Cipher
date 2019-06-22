@@ -6,7 +6,7 @@ En un mundo en que todo sucede a alta velocidad, no nos damos cuenta de las cond
 
 Esta herramienta es para *personas con la vida muy ágil y digital*, que utilizan las redes sociales como principales medios de comunicación en sus cotidianos. Que comparten informaciones importantes con sus clientes, amigos o familia.
 
-![presentacion](img/CODEXPRESS_presentacion.jpg)
+![presentacion](img/CODEXPRESS_presentacion.JPG)
 
 En un primero momento, Codexpress es basado en el Cifrado César, un tipo de crifado por sustitución, es decir, que cada letra del texto original es reemplazada por otra, que se encuentra a un número fijo de posiciones más adelante en el mismo alfabeto, dependiente de la clave elejida. Todavia, aún este es un prototipo de una aplicación que pretende incorporar, en el futuro, otros modelos de cifrado y herramientas de creación de contraseñas, junto a la posibilidad de cambio de alfabeto de acuerdo con el idioma escogido.
 
@@ -17,27 +17,30 @@ Como concepto principal de diseño, fue pensado en la agilidad, camino intuitivo
 #### *Diagrama de flujo*
 
 Idea es que la aplicación sea bastante fluida entre las secciones, pensando en una navegación simple, con el mínimo de clicks entre pantallas.
-![flujo](img/CODEXPRESS_mapaFlujo.jpg)
+
+![flujo](img/CODEXPRESS_mapaFlujo.JPG)
 
 ***
 
 #### *Prototipo de baja fidelidad*
 
 Después de trabajar la circulación entre pantallas, el prototipo de baja fidelidad fue un importante aliado para definir las funciones internas de la aplicación - pensando en la facilidad para que el usuario pase de cifrar para descifrar, teniendo la posibilidad de haber copiado las informaciones entre las secciones. Posibilidad de copiar para el "clipboard" y limpiar la pantalla. Trabajar con iconos entretenidos y palabras simples.
-![prototipo1](img/CODEXPRESS_prototipoHome.jpg)
-![prototipo2](img/CODEXPRESS_prototipoCifrar.jpg)
-![prototipo3](img/CODEXPRESS_prototipoDecifrar.jpg)
+
+![prototipo1](img/CODEXPRESS_prototipoHome.JPG)
+![prototipo2](img/CODEXPRESS_prototipoCifrar.JPG)
+![prototipo3](img/CODEXPRESS_prototipoDecifrar.JPG)
 
 ***
 #### *Investigación de sitios web y definicion del lenguaje de interface*
 
 La investigación de referencias fue enfocada en empresas y aplicaciones que reflejen agilidad, tranquilidad, frescor y tecnología: las nuevas fintechs, que con su *agilidad y practicidad* conquistaron muchos usuarios, los traductores de lenguas más practicos y finalmente las redes sociales que ya son parte fundamental de las interacciones sociales actualmente. 
-![referentes](img/CODEXPRESS_referentes.jpg)
+
+![referentes](img/CODEXPRESS_referentes.JPG)
 
 Los colores *naranja y turquesa* fueron los elegidos como principales, siendo complementarios junto a colores más neutros como el gris y naranja claro, *trayendo frescor, tranquilidad y amistad*.
 Para estudio de colores fue utilizadas herramientas digitales de paleta de colores cómo "paletton.com", "coolors.co" y "colorzilla".
 
-![colores](img/CODEXPRESS_paletaColores.jpg)
+![colores](img/CODEXPRESS_paletaColores.JPG)
 ***
 
 #### *Tests intermedio con usuários*
@@ -60,13 +63,15 @@ Después de las pruebas, se hicieron ultimas modificaciones en la interfaz, que 
 #### *Pantalla principal*
 
 En la pantalla principal, el usuario puede elijir se quiere acceder al guión , cifrar o decifrar su información, a través de botones interactivos e iconos atractivos que se relacionan con sus funciones.
-![home](img/CODEXPRESS_finalHome.jpg)
+
+![home](img/CODEXPRESS_finalHome.JPG)
 ***
 
 #### *Guión para el usuário*
 
 Nesta sección el usuario encontrará las informaciones sobre el cifrado Cesar, instrucciones de uso y politica de privacidad del usuario, trayendo más confianza y seriedad a la aplicación, con la posibilidad de volver a la pantalla principal.
-![guion](img/CODEXPRESS_finalGuion.jpg)
+
+![guion](img/CODEXPRESS_finalGuion.JPG)
 ***
 
 #### *Cifrando y decigfrando las informaciónes personales*
@@ -75,12 +80,15 @@ Para el desarrollo del diseño de las secoes cifrar y descifrar, se realizaron a
 - *Clave secreta* - Elegir un desplazamiento (la clave que al cifrar, debe ser guardada), o insertar la clave recibida, indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
 - *Insertar texto* - Insertar un mensaje (texto) a cifrar o decifrar.
 - *Resultado final* - Información cifrada o decifrada.
-![cifrada](img/CODEXPRESS_finalCifrar.jpg)
-![decifrada](img/CODEXPRESS_finalDecifrar.jpg)
+
+![cifrada](img/CODEXPRESS_finalCifrar.JPG)
+![decifrada](img/CODEXPRESS_finalDecifrar.JPG)
+
 - La funccion copiar para clipboard para que el usuario comparta el mensaje.
 - Funcción limpiar para cifrar o decifrar outro texto.
 - Volver a pantalla principal
 - Interacción Cifrar o decifrar - despues que cumplir con cifrar, por ejemplo, el usuario puede directamente ir a pantalla decifrar, tenendo sus *informaciones automaticamente copiadas*. Lo mismo ocurre inversamente.
+
 ![interaccion](img/CODEXPRESS_interaccionCD.jpg)
 
 ***
