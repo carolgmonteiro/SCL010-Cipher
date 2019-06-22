@@ -36,15 +36,18 @@
         también conocida como Código de César.</p> 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/1200px-Caesar3.svg.png" width="600px">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/1200px-Caesar_cipher_left_shift_of_3.svg.png" width="600px">
-        <br>
-        <p>1- Elije una clave secreta</p>
-        <p>2- Guardala contigo</p>
-        <p>3- Escribe su mensaje </p>
-        <p>4- La codifica</p>
-        <p>5- Puede copiar tu texto para clipboard</p>
-        <p>6- La decodifica</p>
+       
+        <h3>Cómo cifrar?</h3>
+        <p>1- Elije una clave secreta y guardala</p>
+        <p>2- Pon la informacion personal </p>
+        <p>3- Cifrala con el boton cifrar</p>
+        <p>4- Puedes copiar tu texto para clipboard o limpiarla</p>
+        <h3>Cómo decifrar?</h3>
+        <p>1- Inserte la clave secreta que recibiste</p>
+        <p>2- Pon la información cifrada </p>
+        <p>3- Decifrala con el boton decifrar</p>
+        <p>4- Puedes copiar tu texto para clipboard o limpiarla</p>
         <p>Fuente:https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar</p>
-<br>
 
         <h1>Política de privacidad</h1>
         <p>El presente Política de Privacidad establece los términos en que  usa y protege la información que 
@@ -91,12 +94,12 @@
 <!-- Pantalla cifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, decifrar ) --> 
 <div id="encodePage" style="display: none" class = "cipher">
         
-        <input type="number" id = "offsetSpace" placeholder = "clave" class = "inputNumber">
+        <input type="number" id = "offsetSpace" placeholder = "Elija un número para la clave" class = "inputNumber">
         <button id= "btEncodeMsg" class="buttonEncDec"><img src="https://image.flaticon.com/icons/svg/1792/1792193.svg" height="60px"><p>Cifrar</p></button>
     
         <div class="upperBlock">
-        <textarea id="originalMsg" cols="40" rows="4" placeholder = "Escribe tu mensaje acá" class = "textareaEn"></textarea>
-        <textarea id="encondedMsg" cols="40" rows="4"  class = "textareaDec"></textarea>
+        <textarea id="originalMsg" cols="40" rows="4" placeholder = "Escribe tu información acá" class = "textareaEn"></textarea>
+        <textarea id="encondedMsg" cols="40" rows="4"  class = "textareaDec" placeholder = "Información cifrada"></textarea>
     </div>
     <br>
     <div class="bottomRightBlock">
@@ -108,13 +111,13 @@
 </div>
 <!-- Pantalla decifrar (elijir un offset / mensaje p codificar / botones de copiar, limpiar, cifrar ) -->   
 <div id="decodePage" style="display: none" class = "cipher">
-        <input type="number" id = "offsetSpace1" placeholder = "clave" class = "inputNumber">
+        <input type="number" id = "offsetSpace1" placeholder = "Inserta la clave que recibiste" class = "inputNumber">
         <button id= "btDecodeMsg" class="buttonEncDec"><img src="https://image.flaticon.com/icons/svg/1792/1792214.svg" height="60px"><p>Decifrar</p></button>
         
 
         <div class="upperBlock">
-            <textarea id="encodedMsg1" cols="40" rows="4"  class = "textareaDec" placeholder = "Mensaje cifrada aquí"></textarea>
-            <textarea id="decodedMsg" cols="40" rows="4"  class = "textareaEn"></textarea>
+            <textarea id="encodedMsg1" cols="40" rows="4"  class = "textareaDec" placeholder = "Información cifrada"></textarea>
+            <textarea id="decodedMsg" cols="40" rows="4"  class = "textareaEn" placeholder = "Información revelada"></textarea>
             
         </div>
         <br>
