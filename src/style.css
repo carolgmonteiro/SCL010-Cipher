@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 140px;
     text-align: center; 
+   
 }
 
 
@@ -27,7 +28,7 @@ body {
     color: #333333;
     font-family: monospace;
     font-size: 15px;
-    margin : 250px auto;
+    margin : 230px auto;
     align-items: baseline;
     opacity: 0.80;
     justify-content: center ;
@@ -41,7 +42,7 @@ body {
     font-size: 15px;
     color: #333333;
     border: 2px solid #333333;
-    width: 200px;
+    width: 220px;
     padding: 10px;
     cursor: pointer;
     background-color: white;
@@ -50,7 +51,7 @@ body {
     outline: none;  
 }
 .buttonStart:hover{
-    background-color: orange;
+    background-color: rgb(250, 211, 196);
     color: #333333;
 }
 
@@ -59,7 +60,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin : 100px auto;
     padding: 40px;
-    height: 1600px;
+    height: 2600px;
     width : 600px;
     border-radius: 5px;
     position: relative;
@@ -67,12 +68,12 @@ body {
     opacity: 0.80;
 }
 
-#encodePage {
+.cipher {
     width: 600px;
     text-align: center;
     font-family: monospace;
     color: #333333;
-    font-size: 18px;
+    font-size: 15px;
     margin : 150px auto;
     padding: 20px;
     align-items: baseline;
@@ -91,32 +92,20 @@ body {
     font-family: monospace;
     padding: 30px;
     border: 2px solid #333333;
-}
-
-#decodePage {
-    width: 600px;
-    text-align: center;
-    font-family: monospace;
-    color: #333333;
-    font-size: 18px;
-    margin : 150px auto;
-    padding: 20px;
-    align-items: baseline;
-    width: 1000px;
-    position: relative;
-    display: flex;
+    font-size: 20px;
 }
 
 .textareaDec {
     resize: none;
     overflow: auto;
-    background-color: rgb(211, 211, 211);
+    background-color: #DCDCDC;
     outline: none;
     border-radius: 5px;
     border: none;
     font-family: monospace;
     padding: 30px;
     border: 2px solid #333333;
+    font-size: 20px;
     
 }
 
@@ -124,53 +113,57 @@ body {
     text-align: center;
     background-color: white;
     outline: none;
-    border-radius: 20px;
+    border-radius: 5px;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
     font-style: initial;
-    height: 40px;
-    width: 80px;
+    height: 70px;
+    width: 400px;
     border: 2px solid #333333;
     float: inline-start;
 }
 
-.buttonClean{
+
+.buttonEncDec{
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
     background: transparent;
     color: #333333;
-    width: 50px;
-    padding: 10px;
     cursor: pointer;
-    margin-bottom: 10px;
+    border-radius: 10px;  
     border: none;
     outline: none;
+    width: 120px;
+    box-sizing: border-box;
 }
 
-.buttonCopy{
-    font-family: monospace;
-    font-size: 15px;
-    background: transparent;
+.buttonEncDec:hover{
     color: #333333;
-    width: 50px;
-    padding: 10px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    border: none; 
-    outline: none;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
-.buttonShare{
+.buttonBack{
     font-family: monospace;
-    font-size: 15px;
+    font-size: 20px;
     background: transparent;
     color: #333333;
-    width: 50px;
-    padding: 10px;
     cursor: pointer;
-    margin-bottom: 10px;
-    border: none; 
+    border-radius: 10px;  
+    border: none;
     outline: none;
+    width: 100px;
+    float: right;
+    height: 70px;
+    box-sizing: content-box
+}
+
+.buttonBack:hover{
+    color: #333333;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
 .button{
@@ -182,11 +175,13 @@ body {
     border-radius: 10px;  
     border: none;
     outline: none;
+    width: 100px;
+    box-sizing: border-box;
 }
 
 .button:hover{
-    background-color: rgb(138, 240, 240);
     color: #333333;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
-
-

@@ -2,7 +2,6 @@
 const btnEncode = document.getElementById("btEncodeMsg");
 const btnCopy = document.getElementById("btCopyMsg");
 const btnClean = document.getElementById("btCleanMsg");
-// const btnShare = document.getElementById("btShareMsg");
 //Declarar las variables - pantalla decode
 const btnDecode = document.getElementById("btDecodeMsg");
 const btnCopyDeco = document.getElementById("btCopyMsg1");
@@ -18,12 +17,14 @@ document.getElementById("btInfosCode").addEventListener("click", function(){
 document.getElementById("btBackWelcome").addEventListener("click", function(){
   document.getElementById("infosCeasar").style.display = "none";
   document.getElementById("welcome").style.display = "block";
+  
 });
 
 // cambio de pagina welcome para encode
 document.getElementById("btCodePage1").addEventListener("click", function(){
   document.getElementById("welcome").style.display = "none";
   document.getElementById("encodePage").style.display = "block";
+  
 });
 
 // cambio de pagina encode para welcome
@@ -65,11 +66,8 @@ document.getElementById("btDecoWelcome").addEventListener("click", function(){
     //guardar infos del usuario  
     let enOffset = parseInt(document.getElementById("offsetSpace").value);
     let TxtToEncode = document.getElementById("originalMsg").value;
-   
-
-            //Mostrar nuevo texto en Index.html 
-            // document.getElementById("encondedMsg").value = cipher.encode;
-            document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
+    //Mostrar nuevo texto en Index.html 
+    document.getElementById("encondedMsg").value = window.cipher.encode(enOffset, TxtToEncode);
       });
 
   //De la pantalla codificar para la pantalla decodificar (eventListener)
@@ -83,10 +81,11 @@ document.getElementById("btDecodePage1").addEventListener("click", function(){
   document.getElementById("offsetSpace1").value = parseInt(document.getElementById("offsetSpace").value);
 });
 
+let TxtEncCopied = " ";
 //COPIAR TEXTO CODIFICADO PARA CLIPBOARD
 btnCopy.addEventListener("click", () => {
   document.getElementById('encondedMsg').select();
-  let TxtEncCopied = " ";
+  
   try
   {
       //Copia el texto
@@ -106,7 +105,6 @@ btnClean.addEventListener("click", () => {
   document.getElementById("offsetSpace").value = "";
   
 });
-
    
 //DECODIFICAR (click para decodificar el mensaje)
 btnDecode.addEventListener("click", () => {
@@ -127,7 +125,8 @@ btnDecode.addEventListener("click", () => {
     //Mostrar en Index.html
     document.getElementById("decodePage").style.display = "none";
     document.getElementById("encodePage").style.display = "block";
-    document.getElementById("decodedMsg").value = window.cipher.decode(decoOffset, TxtToDecode);
+    document.getElementById("originalMsg").value = window.cipher.decode(decoOffset, TxtToDecode);
+    document.getElementById("offsetSpace").value = parseInt(document.getElementById("offsetSpace1").value);
   });
   
 
