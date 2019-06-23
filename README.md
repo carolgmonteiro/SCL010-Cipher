@@ -1,9 +1,9 @@
 ## **C0DEXPRESS: cifra y comparta mensajes importantes rapido y facil** 
 
-En un mundo en que todo sucede a alta velocidad, no nos damos cuenta de las condiciones de seguridad que compartimos nuestras informaciónes personales en las redes como facebook, whatsapp, slack y telegram. Enviamos cuentas de banco, RUT o números de tarjeta de crédito sin saber si estamos en un ambiente seguro. 
+En un mundo en que todo sucede a alta velocidad, no nos damos cuenta de las condiciones de seguridad que compartimos nuestras informaciónes personales en las redes como facebook, whatsapp, slack y telegram. Enviamos cuentas de banco, RUT o números de tarjeta de crédito y contraseñas sin saber si estamos en un ambiente seguro y seguridad de quien las vay recibir. 
 **¿Y si pudiéramos compartir estas informaciones solamente con quien la solicitó y de la manera más segura posible, rápido y fácil?**
 
-**C0dexpress**, como dice el nombre, permite que esta información tan importante sea más segura utilizando, como ejemplo la Cifra Cesar. La aplicación, que se puede abrir en escritorio o instalada en las **plataformas Android y IOS**, permite cifrar y descifrar los mensajes sólo por quien posee la clave secreta, que consiste en un número a ser escogido por la persona que va a codificar.
+**C0dexpress** permite que estas informaciones tan importantes sean compartidas con más segura utilizando, por ejemplo, la Cifra Cesar. La aplicación, que se puede abrir en escritorio o, futuramente, instalada en las **plataformas Android y IOS**, permite cifrar y descifrar los mensajes sólo por quien posee la clave secreta, que consiste en un número a ser escogido por la persona que va a codificar.
 
 Esta herramienta es para *personas con la vida muy ágil y digital*, que utilizan las redes sociales como principales medios de comunicación en sus cotidianos. Que comparten informaciones importantes con sus clientes, amigos o familia.
 
@@ -15,7 +15,7 @@ En un primero momento, Codexpress es basado en el Cifrado César, un tipo de cri
 
 ## **Decisiones de Diseño y interacción con el usuário**
 
-Como concepto principal de diseño, fue pensado en la agilidad, camino intuitivo y interfaz atractiva y leve, similar a las actuales redes sociales.
+Como concepto principal de diseño, fue pensado en amigabilidad y sencillez, con interfaz minimalista, atractiva y leve, similar a las actuales redes sociales.
 
 #### **Diagrama de flujo**
 
@@ -31,21 +31,21 @@ Después de trabajar la circulación entre pantallas, el prototipo de baja fidel
 ![prototipo2](img/CODEXPRESS_prototipoCifrar.JPG)
 ![prototipo3](img/CODEXPRESS_prototipoDecifrar.JPG)
 
-#### **Investigación de sitios web y definicion del lenguaje de interface**
+#### **Investigación de sitios web y definicion del lenguaje de interfaz**
 
 La investigación de referencias fue enfocada en empresas y aplicaciones que reflejen agilidad, tranquilidad, frescor y tecnología: las nuevas fintechs, que con su *agilidad y practicidad* conquistaron muchos usuarios, los traductores de lenguas más practicos y finalmente las redes sociales que ya son parte fundamental de las interacciones sociales actualmente. 
 
 ![referentes](img/CODEXPRESS_referentes.JPG)
 
-Los colores *naranja y turquesa* fueron los elegidos como principales, siendo complementarios junto a colores más neutros como el gris y naranja claro, *trayendo frescor, tranquilidad y amistad*.
-Para estudio de colores fue utilizadas herramientas digitales de paleta de colores cómo "paletton.com", "coolors.co" y "colorzilla".
+Los colores *naranja y turquesa* fueron los elegidos como principales, siendo complementarios junto a colores más neutros como el gris y naranja claro, *trayendo sensación de amistad, sencillez, frescor y tranquilidad*para quien lo use. La fuente "Monospace" fue elejida para remitir a la idea de codigo.
+Para estudio de colores fue utilizadas herramientas digitales de paleta de colores cómo "paletton.com", "coolors.co", "colorzilla" y "GoogleFonts".
 
 ![colores](img/CODEXPRESS_paletaColores.JPG)
 
-#### **Tests intermedio con el usuário**
+#### **Primero Test de usabilidad con el usuário**
 
 Antes de llegar a una versión final, se recibieron algunos comentarios de usuarios, observando su reacción y relación con los colores, la estetica y funcionalidades: 
-- Fuertes identificaciones con los colores y fuentes escogidas - confianza, tranquilidad y sensación de armonía y frescor. 
+- Fuertes identificaciones con los colores y fuentes escogidas - amigabilidad, confianza, tranquilidad y sensación de armonía y frescor. 
 - Necesidad de aumentar las fuentes y iconos. 
 - Diferenciar los iconos cifrar y descifrar .
 - Diferenciar mejor lo que es la funcion de cifrado y lo que es navegación, con sugerencia de cambio de posicionamento de los botones y áreas de texto para que quedara más responsivo.
@@ -55,47 +55,47 @@ Antes de llegar a una versión final, se recibieron algunos comentarios de usuar
 
 ***
 
-## **Interface Final**
+## **Interfaz Final**
 
 Después de las pruebas, se hicieron ultimas modificaciones en la interfaz, que ya configura su versión final.
 
 
 #### **Pantalla principal**
 
-En la pantalla principal, el usuario puede elijir se quiere acceder al guión , cifrar o decifrar su información, a través de botones interactivos e iconos atractivos que se relacionan con sus funciones.
+En la pantalla principal, el usuario puede elijir se quiere acceder al "Cómo usar?" , "cifrar" o "descifrar" su información, a través de botones interactivos e iconos atractivos que se relacionan con sus funciones. Todavia la aplicación no está responsiva para los equipos muebles.
 
 ![home](img/CODEXPRESS_finalHome.JPG)
 ***
 
-#### **Guión para el usuário**
+#### **Instrucciones de uso para el usuário**
 
-Nesta sección el usuario encontrará las informaciones sobre el cifrado Cesar, instrucciones de uso y politica de privacidad del usuario, trayendo más confianza y seriedad a la aplicación, con la posibilidad de volver a la pantalla principal.
+Nesta sección "Cómo usar?", el usuario encontrará las informaciones sobre las posibilidades de cómo utilizar la herramienta, instrucciones de uso y politica de privacidad del usuario, con explicación didáctica, trayendo más confianza y seriedad a la aplicación.
 
 ![guion](img/CODEXPRESS_finalGuion.JPG)
 
 
-#### **Cifrando y decifrando las informaciones personales**
+#### **Cifrando y descifrando las informaciones personales**
 
 Para el desarrollo del diseño de las secoes cifrar y descifrar, se realizaron algunas pruebas con usuarios para observar
 - **Clave secreta** - Elegir un desplazamiento (la clave que al cifrar, debe ser guardada), o insertar la clave recibida, indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
-- **Insertar texto** - Insertar un mensaje (texto) a cifrar o decifrar.
+- **Insertar texto** - Insertar un mensaje (texto) a cifrar o descifrar.
 - **Resultado final** - Información cifrada o decifrada.
 
 ![cifrada](img/CODEXPRESS_finalCifrar.JPG)
-![decifrada](img/CODEXPRESS_finalDecifrar.JPG)
+![descifrada](img/CODEXPRESS_finalDecifrar.JPG)
 
 - La funccion copiar para clipboard para que el usuario comparta el mensaje.
-- Funcción limpiar para cifrar o decifrar outro texto.
+- Funcción limpiar para cifrar o descifrar outro texto.
 - Volver a pantalla principal
 - Interacción Cifrar o decifrar - despues que cumplir con cifrar, por ejemplo, el usuario puede directamente ir a pantalla decifrar, tenendo sus *informaciones automaticamente copiadas*. Lo mismo ocurre inversamente.
 
 ![interaccion](img/CODEXPRESS_interaccionCD.jpg)
 
 #### **Tests con usuário final**
-Para prueba final, hicimos un test de usabilidad que muestra que la aplicación parece simples de manejar, con caminos intuitivos de manera general. En el guión, las instrucciones parecen clara y la politica de privacidad se muestra más como una formalidad, pero que nadie tiene tiempo para leerla. 
+Para prueba final, hicimos un test de usabilidad que muestra que la aplicación parece simples de manejar, con caminos intuitivos de manera general. En el "Cómo usar?", El usuario pedio más informaciones acerca de cómo utilizar la información y sus posibilidades, que fue añadido en nueva revisión. Entonces las instrucciones pareceron más claras y la politica de privacidad se muestró más como una formalidad  que nadie tiene tiempo para leerla. 
 
-Para las funciones cifrar y decifrar, los iconos estan de facil compreensión y el efecto que aumenta el botón al pasar el mouse arriba, es algo entretenido para el usuario. Las funcciones cifrar y decifrar estan funcionando correctamente. Además, le gusta la funcción copiar para el clipboard y la interacción que copia automaticamente las informaciones entre cifrar y decifrar es algo que el usuario le gusta.
-** Vídeo del test final de usabilidad [codexpress test final usabilidad](https://youtu.be/l1_V9LJx1Cs)
+Para las funciones cifrar y descifrar, los iconos estan de facil compreensión y el efecto que aumenta el botón al pasar el mouse arriba, es algo entretenido para el usuario. Las funcciones cifrar y decifrar estan funcionando correctamente. Además, le gusta la funcción copiar para el clipboard y la interacción que copia automaticamente las informaciones entre cifrar y descifrar es algo que el usuario le gusta.
+** Vídeo del test final de usabilidad [codexpress test de usabilidad](https://www.loom.com/share/466c2b5715cb47be9936c2e8d556f81e)
 
 #### **Cómo acceder a la aplicación**
 
@@ -106,7 +106,7 @@ Link para la aplicación:
 
 - HTML5 (Estructura principal - divs, botones, textos)
 - JavaScript (interacción - funciones encode / decode, eventListener, getElementById)
-- CSS (interface - layout, colores, fuentes, espaciamentos, efectos)
+- CSS (interfaz - layout, colores, fuentes, espaciamentos, efectos)
 ![pruebas](img/CODEXPRESS_testeos.jpg)
 
 ***
