@@ -37,8 +37,8 @@ La investigación de referencias fue enfocada en empresas y aplicaciones que ref
 
 ![referentes](img/CODEXPRESS_referentes.JPG)
 
-Los colores *naranja y turquesa* fueron los elegidos como principales, siendo complementarios junto a colores más neutros como el gris y naranja claro, *trayendo sensación de amistad, sencillez, frescor y tranquilidad*para quien lo use. La fuente "Monospace" fue elejida para remitir a la idea de codigo.
-Para estudio de colores fue utilizadas herramientas digitales de paleta de colores cómo "paletton.com", "coolors.co", "colorzilla" y "GoogleFonts".
+Los colores *naranja y turquesa* fueron los elegidos como principales, siendo complementarios junto a colores más neutros como el gris y naranja claro, *trayendo sensación de amistad, sencillez, frescor y tranquilidad*para quien lo use. La fuente "Monospace" fue elejida para remitir a la idea de codigo (utilización del "GoogleFonts").
+Para estudio de colores fue utilizadas herramientas digitales de paleta de colores cómo "paletton.com", "coolors.co", "colorzilla".
 
 ![colores](img/CODEXPRESS_paletaColores.JPG)
 
