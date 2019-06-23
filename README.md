@@ -91,11 +91,11 @@ Para el desarrollo del diseño de las secoes cifrar y descifrar, se realizaron a
 
 ![interaccion](img/CODEXPRESS_interaccionCD.jpg)
 
-#### **Tests con usuário final**
-Para prueba final, hicimos un test de usabilidad que muestra que la aplicación parece simples de manejar, con caminos intuitivos de manera general. En el "Cómo usar?", El usuario pedio más informaciones acerca de cómo utilizar la información y sus posibilidades, que fue añadido en nueva revisión. Entonces las instrucciones pareceron más claras y la politica de privacidad se muestró más como una formalidad  que nadie tiene tiempo para leerla. 
+#### **Tests con el usuário final**
+Para prueba final, hicimos un test de usabilidad que muestra que la aplicación parece simples de manejar, con caminos intuitivos de manera general. En el "Cómo usar?", El usuario pedio más informaciones acerca de cómo utilizar la información y sus posibilidades, que fue añadido en nueva revisión. Entonces las instrucciones pareceron aún más largas pero también claras y la politica de privacidad se muestró más como una formalidad en que nadie tiene tiempo para leerla. 
 
 Para las funciones cifrar y descifrar, los iconos estan de facil compreensión y el efecto que aumenta el botón al pasar el mouse arriba, es algo entretenido para el usuario. Las funcciones cifrar y decifrar estan funcionando correctamente. Además, le gusta la funcción copiar para el clipboard y la interacción que copia automaticamente las informaciones entre cifrar y descifrar es algo que el usuario le gusta.
-** Vídeo del test final de usabilidad [codexpress test de usabilidad](https://www.loom.com/share/466c2b5715cb47be9936c2e8d556f81e)
+** Vídeo del test final de usabilidad hecho con Loom [codexpress test de usabilidad](https://www.loom.com/share/466c2b5715cb47be9936c2e8d556f81e)
 
 #### **Cómo acceder a la aplicación**
 
